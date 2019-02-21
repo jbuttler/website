@@ -1,3 +1,17 @@
 @charset "UTF-8";
 
 /* This CSS file contains all stylings that are applicable to index.css */
+
+#solar-realworld {
+    padding: 56px 0;
+}
+
+#solar-realworld img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.solar-counter {
+    padding-top: 56px;
+}
