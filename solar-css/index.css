@@ -15,3 +15,24 @@
 .solar-counter {
     padding-top: 56px;
 }
+
+#solar-race {
+    padding-top: 0;
+}
+
+#solar-race img {
+    width: 30%;
+    height: auto;
+    padding: auto;
+    float: right;
+}
+
+#solar-race iframe {
+    /* width: 40%; */
+    /* height: auto; */
+    /* float: left; */
+}
+
+#solar-race p {
+    /* float: right; */
+}
