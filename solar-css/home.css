@@ -2,8 +2,13 @@
 
 /* This CSS file contains all stylings that are applicable to home.html */
 
+#solar-contact-section {
+    padding: 0.5em 0 2em 0;
+    background-color: rgb(248, 248, 248);
+}
+
 #solar-realworld {
-    padding: 56px 0;
+    padding: 1.5em 0 0 0;
 }
 
 #solar-realworld img {
@@ -12,19 +17,28 @@
     margin-bottom: 20px;
 }
 
+#solar-realworld h3 {
+    font-size: 28px;
+}
+
+#solar-realworld p {
+    font-size: 18px;
+}
+
 .solar-counter {
     padding-top: 56px;
 }
 
-#solar-race-wrapper {
+#solar-race-section {
     background-color: rgb(248, 248, 248);
 }
 
-#solar-race-wrapper #solar-race {
+#solar-race-section #solar-race {
     padding-top: 0;
     padding-bottom: 0;
     z-index: 1;
     background-color: rgb(248, 248, 248);
+    text-align: center;
 }
 
 #solar-race h3 {
@@ -32,20 +46,208 @@
     margin-bottom: 2.5%;
 }
 
-#solar-race img {
-    width: 30%;
+#solar-race-section img {
+    width: 25em;
     height: auto;
     padding-right: 50px;
     float: left;
 }
 
-#solar-race #solar-race-desc {
+#solar-race .solar-race-desc {
     font-size: 1.5em;
     text-align: center;
 }
 
-#solar-race-wrapper iframe {
+#solar-race-section iframe {
     margin: 3% auto;
-    /* height: auto;; */
-    /* width: auto; */
+}
+
+#solar-leaders {
+    text-align: center;
+}
+
+.solar-title {
+    font-size: 2.5em;
+}
+
+#solar-leaders .solar-description {
+    font-size: 1.4em;
+}
+
+.solar-img-holder {
+    overflow: hidden;
+    position: relative;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 0rem !important;
+}
+
+#solar-race-section {
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.solar-leader-section {
+    background-color: rgb(248, 248, 248);
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.solar-form {
+    margin: 0 auto;
+}
+
+.pr-md-5, .px-md-5 .solar-form {
+    padding: 0 !important;
+}
+
+#solar-sponsors-section {
+    padding-top: 1.8em;
+    padding-bottom: 0;
+}
+
+#solar-sponsors {
+    text-align: center;
+}
+
+#solar-sponsors .solar-img-holder {
+    overflow: hidden;
+    position: relative;
+}
+
+#solar-sponsors .solar-description {
+    font-size: 1.8em;
+    padding-top: 0.5em;
+    color: rgb(100, 100, 100);
+}
+
+#solar-sponsors img {
+    max-width: 49%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+#solar-sponsors hr {
+    border: 1px solid rgb(234, 234, 234);
+}
+
+#solar-race-section .solar-title {
+    margin: 0 auto;
+}
+
+#solar-about-section {
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+#solar-about-section .solar-title {
+    text-align: center;
+}
+
+#solar-about .solar-paragraph {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.solar-button {
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+    line-height: 1;
+    background-color: rgb(255, 216, 87);
+    color: black;
+    box-shadow: 0px 8px 5px grey;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 2.5em;
+}
+
+.solar-button:hover {
+    background-color: rgb(255, 204, 0);
+    box-shadow: 0px 6px 5px grey;
+}
+
+#solar-sponsor-link {
+    margin-bottom: 0.4em;
+}
+
+#solar-contact-section a {
+    display: block;
+    text-align: center;
+}
+
+#solar-contact-section .solar-button-holder {
+    width: 30em;
+    margin: 0 auto;
+}
+
+#solar-contact-section .solar-button {
+    width: 12em;
+    margin: 0.6em auto;
+}
+
+#solar-join-link {
+    margin: 0.6em auto;
+    color: rgb(234, 234, 234);
+    background-color: rgb(153, 0, 0);
+}
+
+#solar-join-link:hover {
+    background-color: rgb(128, 0, 0);
+}
+
+#solar-donate-link {
+    margin: 0 auto;
+    color: black;
+}
+
+#solar-footer {
+    padding: 1.8em 0 0 0;
+}
+
+#solar-footer .row {
+    margin-bottom: 1em !important;
+}
+
+#solar-contact-section .solar-socmed-link {
+    transition: background-color 0.4s ease;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+#solar-contact-section #solar-fb-link:hover {
+    background-color: rgb(66, 103, 178);
+}
+
+#solar-contact-section #solar-insta-link:hover {
+    background-color: rgb(219, 27, 91);
+}
+
+#solar-contact-section #solar-twit-link:hover {
+    background-color: rgb(50, 168, 241);
+}
+
+#solar-contact-section .solar-socmed-link img {
+    padding: 0.6em;
+}
+
+#solar-contact-section #solar-insta-link {
+    margin: 0 1em;
+}
+
+#solar-contact-section #solar-socmed {
+    width: 18.2em;
+    margin: 1em auto 0 auto;
+}
+
+#solar-contact-section #solar-email {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#solar-contact-section #solar-email img {
+    width: 1.4em;
+    height: auto;
 }
