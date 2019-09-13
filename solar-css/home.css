@@ -251,3 +251,29 @@
     width: 1.4em;
     height: auto;
 }
+
+@media (max-width: 576px) {
+    #solar-contact-section .solar-button {
+        width: 6em;
+    }
+
+    #solar-contact-section .solar-button-holder {
+        width: 15em;
+    }
+
+    #solar-race-section img {
+        width: 90%;
+        padding-right: 0;
+        margin: 0 5%;
+    }
+
+    #solar-contact-section #solar-email {
+        font-size: 1.5em;
+    }
+
+    #solar-race-section iframe {
+        width: 90%;
+        height: auto;
+        margin: 3% 5%;
+    }
+}
