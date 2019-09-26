@@ -264,7 +264,7 @@
     #solar-race-section img {
         width: 90%;
         padding-right: 0;
-        margin: 0 5%;
+        margin: 3% 5%;
     }
 
     #solar-contact-section #solar-email {
@@ -275,5 +275,16 @@
         width: 90%;
         height: auto;
         margin: 3% 5%;
+    }
+
+    #solar-sponsors img {
+        max-width: 96%;
+        padding: 0;
+        margin: 3% 2% 0 2%;
+    }
+
+    .solar-title {
+        line-height: 1.2;
+        margin-bottom: 1.5%;
     }
 }
