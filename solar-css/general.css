@@ -44,3 +44,11 @@
 .clearfloat {
   clear: both;
 }
+
+#solar-footer {
+  padding: 1.8em 0 0 0;
+}
+
+#solar-footer .row {
+  margin-bottom: 1em !important;
+}

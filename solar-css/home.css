@@ -206,14 +206,6 @@
     color: black;
 }
 
-#solar-footer {
-    padding: 1.8em 0 0 0;
-}
-
-#solar-footer .row {
-    margin-bottom: 1em !important;
-}
-
 #solar-contact-section .solar-socmed-link {
     transition: background-color 0.4s ease;
     display: inline-block;
