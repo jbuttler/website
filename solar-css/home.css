@@ -74,9 +74,13 @@
     font-size: 1.4em;
 }
 
-.solar-img-holder {
+#solar-eboard-holder {
     overflow: hidden;
     position: relative;
+}
+
+#solar-eboard-holder img {
+    max-width: 90%;
 }
 
 .mb-4, .my-4 {
@@ -200,14 +204,6 @@
 #solar-donate-link {
     margin: 0 auto;
     color: black;
-}
-
-#solar-footer {
-    padding: 1.8em 0 0 0;
-}
-
-#solar-footer .row {
-    margin-bottom: 1em !important;
 }
 
 #solar-contact-section .solar-socmed-link {

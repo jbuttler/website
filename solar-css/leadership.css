@@ -2,7 +2,9 @@
 
 /* This CSS file contains all stylings that are applicable to leadership.html */
 
-#solar-profiles {
+#solar-profiles-section {
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 #solar-profiles .solar-name {
